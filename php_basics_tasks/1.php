@@ -1,9 +1,13 @@
 <?php
     $name = "Александр";
-    $age = -3;
+    $age = 'test';
     echo "Меня зовут {$name}. ";
+    echo "<br>";
     echo "Мне {$age} лет. ";
-    if ($age >= 18 && $age <= 59) {
+    echo "<br>";
+    if (!is_numeric($age)) {
+        echo "В графу 'Возраст' введите число";
+    } elseif ($age >= 18 && $age <= 59) {
         echo "Вам еще работать и работать";
     } elseif ($age > 59) {
         echo "Вам пора на пенсию";
