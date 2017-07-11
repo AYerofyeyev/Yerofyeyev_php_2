@@ -8,5 +8,8 @@
 $numbers = [26, 17, 136, 12, 79, 15];
 
 foreach ($numbers as $value) {
-
+  $value *= $value;
+  $result += $value;
 }
+
+echo "Сумма квадратов = " . $result;
