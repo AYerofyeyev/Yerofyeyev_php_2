@@ -1,5 +1,5 @@
-<?php	$mysql['server'] ='db3.ho.ua';
-		$mysql['name'] ='sashc0';
-		$mysql['pass'] ='qSFpC5hTX3';
-		$mysql['db'] ='sashc0';
+<?php	$mysql['server'] ='sashc0.net';
+		$mysql['name'] ='proftpu';
+		$mysql['pass'] ='proftpdpass';
+		$mysql['db'] ='proftpd';
 ?>
